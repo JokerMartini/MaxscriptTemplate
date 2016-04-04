@@ -21,7 +21,7 @@
 *******************************************************HeaderEnd*/
 
 --Destroy the dialog if it is open. This is here for testing purposes. 
-try(destroyDialog testTool.instUI;testTool.instUI=undefined)catch()
+try(destroyDialog myTool.instUI;myTool.instUI=undefined)catch()
 
 --Structure containing the tool
 struct myTool
